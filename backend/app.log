@@ -1,0 +1,22 @@
+INFO:main:Upload directory set to: uploads
+ERROR:main:AI_API_KEY not found in environment variables
+INFO:main:Upload directory set to: uploads
+INFO:main:Groq API key loaded successfully
+INFO:main:API endpoint set to: https://api.groq.com/openai/v1/chat/completions
+ERROR:fastapi:Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+INFO:main:Upload directory set to: uploads
+INFO:main:Groq API key loaded successfully
+INFO:main:API endpoint set to: https://api.groq.com/openai/v1/chat/completions
+INFO:main:Starting analyze-resume operation
+INFO:main:Received file: Resume-Rechal.pdf
+INFO:main:Saving file to: uploads\Resume-Rechal.pdf
+INFO:main:File saved successfully
+INFO:main:Attempting to extract text from PDF: uploads\Resume-Rechal.pdf
+INFO:main:Successfully extracted 3736 characters from PDF
+INFO:main:Sending request to Groq API...
+INFO:main:Received API response (status: 200)
+INFO:main:Successfully received analysis from Groq API
